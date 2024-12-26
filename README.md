@@ -10,13 +10,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/AdrianGlez18">
-    <img src="/logo.png" alt="Logo" width="160" height="80">
+    <img src="/public/logo.png" alt="Logo" width="160" height="80">
   </a>
 
   <p align="center">
     A tool to create and share your art!
     <br />
-    <a href="">View Demo</a>
+    <a href="https://vidextdrawer.vercel.app/">View Demo</a>
     ·
   </p>
 </div>
@@ -142,7 +142,7 @@ Adrián González - contact@aglez.dev
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/adri%C3%A1n-gonz%C3%A1lez-hern%C3%A1ndez/
-[product-screenshot]: screenshot.png
+[product-screenshot]: /public/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [TailwindCSS]: https://img.shields.io/badge/tailwind-11cde7?style=for-the-badge&logo=tailwindcss&logoColor=white
 [Tailwind-url]: https://tailwindcss.com/
