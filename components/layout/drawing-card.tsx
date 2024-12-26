@@ -32,7 +32,7 @@ const DrawingCard = ({ drawing, setDrawings }: { drawing: Drawing, setDrawings: 
         setEditor(editor)
     }
     const handleDelete = (id: string) => {
-        const request = indexedDB.deleteDatabase(id);
+        indexedDB.deleteDatabase(id);
         deleteDrawing(id)
         setDrawings(getDrawings())
     }
@@ -55,7 +55,7 @@ const DrawingCard = ({ drawing, setDrawings }: { drawing: Drawing, setDrawings: 
         uploadMutation.mutate(
             { name: Date.now().toString(), base64 },
             {
-                onSuccess: (data) => {
+                onSuccess: () => {
                     toast.success('Image successfully uploaded');
                 },
                 onError: (error) => {

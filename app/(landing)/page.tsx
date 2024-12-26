@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { ArrowRight, PenLine, Save, Layout, Share, WholeWord, Plane, Bot } from 'lucide-react'
+import { ArrowRight, PenLine, Save, Layout, Share, Plane, Bot } from 'lucide-react'
 import { createDrawing } from '@/lib/storage';
 import { useRouter } from 'next/navigation'
 

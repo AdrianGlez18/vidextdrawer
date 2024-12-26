@@ -1,15 +1,13 @@
 "use client"
 
-import { Bot, Download, Lightbulb, Upload } from "lucide-react";
+import { Bot,  Lightbulb } from "lucide-react";
 import { Button } from "../ui/button";
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "../ui/card";
 import Image from "next/image";
-import { Dialog, DialogClose, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "../ui/dialog";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "../ui/dialog";
 import { ScrollArea } from "../ui/scroll-area";
 import { useState } from "react";
-import OpenAI from "openai";
 import { describeImage, judgeImage } from "@/lib/server/getOpenAiData";
-const openai = new OpenAI({ apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY, dangerouslyAllowBrowser: true });
 
 
 const GalleryCard = ({ id, title, src, date }: { id: string, title: string, src: string, date: string }) => {

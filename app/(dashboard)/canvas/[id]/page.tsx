@@ -1,14 +1,14 @@
 'use client'
 
 import { useState, useEffect, useRef, createContext } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Save, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import { components, uiOverrides } from "@/components/layout/ui-overrides";
 import { saveDrawing, getDrawingById } from '@/lib/storage'
-import { Editor, exportToBlob, Tldraw, useEditor, TldrawEditor, type TLStore } from 'tldraw'
+import { Editor, Tldraw } from 'tldraw'
 import { trpc } from '@/lib/trpc'
 import { CustomShapeUtil, VidextShapeTool } from '@/components/custom-shape'
 
