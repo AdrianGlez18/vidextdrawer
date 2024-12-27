@@ -73,7 +73,7 @@ This project was developed with:
 
 ## Getting Started
 
-It is highly recommended to test it directly online using <a href="">this link</a>. If you are testing it online, continue the guide in <a href="#screens">Screens</a>.
+It is highly recommended to test it directly online using <a href="https://vidextdrawer.vercel.app/">this link</a>. If you are testing it online, continue the guide in <a href="#screens">Screens</a>.
 
 ### Prerequisites
 
