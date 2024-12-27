@@ -33,17 +33,17 @@ export default function GalleryPage() {
 
   return (
     <div className="min-h-screen p-4">
-      <header className="container flex items-center justify-between mb-8">
-        <Link href="/" className="flex items-center space-x-2">
-          <PenLine className="w-6 h-6" />
-          <span className="font-bold">VidextDrawer</span>
-        </Link>
-        <nav className="flex items-center space-x-4">
-          <Link href="/gallery">Gallery</Link>
-          <Link href="/canvas">
-            <Button onClick={handleCreateNewDrawing}>Create New Drawing</Button>
+      <header className="border-b w-screen flex items-center justify-center">
+        <div className="container flex items-center justify-between h-16 px-4 mx-4">
+          <Link href="/" className="flex items-center space-x-2">
+            <PenLine className="w-6 h-6" />
+            <span className="font-bold">VidextDrawer</span>
           </Link>
-        </nav>
+          <nav className="flex items-center space-x-4">
+            <Link href="/gallery">Gallery</Link>
+            <Button onClick={handleCreateNewDrawing}>Create New Drawing</Button>
+          </nav>
+        </div>
       </header>
       <main className="flex w-full items-center justify-center">
         <div className=" flex flex-col items-center w-full">
