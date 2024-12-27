@@ -3,7 +3,7 @@
 <div align="center">
 [![Unlicense License][license-shield]]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-</p>
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -12,9 +12,10 @@
     <img src="/public/logo.png" alt="Logo" width="160" height="80">
   </a>
 
+  
+  <br />
+  <br />
   <p align="center">
-  <br />
-  <br />
     A tool to create and share your art!
     <br />
     <br />
